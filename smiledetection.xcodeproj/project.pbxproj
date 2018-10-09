@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FAE8BC1F1D7289753B79CDC /* Pods_smiledetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5986AC43D68B3F868474CDA7 /* Pods_smiledetection.framework */; };
 		1806D6F6216CD046009D10AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806D6F5216CD046009D10AE /* AppDelegate.swift */; };
 		1806D6F8216CD046009D10AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806D6F7216CD046009D10AE /* ViewController.swift */; };
 		1806D6FB216CD046009D10AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806D6F9216CD046009D10AE /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		1806D700216CD047009D10AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806D6FE216CD047009D10AE /* LaunchScreen.storyboard */; };
 		1806D70B216CD048009D10AE /* smiledetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806D70A216CD048009D10AE /* smiledetectionTests.swift */; };
 		1806D716216CD048009D10AE /* smiledetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806D715216CD048009D10AE /* smiledetectionUITests.swift */; };
+		1806D724216CD0A1009D10AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1806D723216CD0A1009D10AE /* GoogleService-Info.plist */; };
+		C34FC85EBC3EC021B4397693 /* Pods_smiledetectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC385165C8657368CD6D7434 /* Pods_smiledetectionUITests.framework */; };
+		FE3AE00E536FB12C366F2FAB /* Pods_smiledetectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08632BF4E24EC29445775604 /* Pods_smiledetectionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08632BF4E24EC29445775604 /* Pods_smiledetectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smiledetectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		092A3EC6711F42C5783935DF /* Pods-smiledetectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smiledetectionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smiledetectionTests/Pods-smiledetectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		10A31CCB3A32CD98F0BF2FCD /* Pods-smiledetectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smiledetectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smiledetectionTests/Pods-smiledetectionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1806D6F2216CD046009D10AE /* smiledetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smiledetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1806D6F5216CD046009D10AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1806D6F7216CD046009D10AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		1806D711216CD048009D10AE /* smiledetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smiledetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1806D715216CD048009D10AE /* smiledetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smiledetectionUITests.swift; sourceTree = "<group>"; };
 		1806D717216CD048009D10AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806D723216CD0A1009D10AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2BA106CE7EF15837D167BDEF /* Pods-smiledetectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smiledetectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smiledetectionUITests/Pods-smiledetectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36CFF8E2B3C97F1EB92559FA /* Pods-smiledetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smiledetection.release.xcconfig"; path = "Pods/Target Support Files/Pods-smiledetection/Pods-smiledetection.release.xcconfig"; sourceTree = "<group>"; };
+		5986AC43D68B3F868474CDA7 /* Pods_smiledetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smiledetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F277AE06D7D08829619DA53 /* Pods-smiledetectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smiledetectionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smiledetectionUITests/Pods-smiledetectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0D8301C896F8A10B187485B /* Pods-smiledetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smiledetection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smiledetection/Pods-smiledetection.debug.xcconfig"; sourceTree = "<group>"; };
+		CC385165C8657368CD6D7434 /* Pods_smiledetectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smiledetectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FAE8BC1F1D7289753B79CDC /* Pods_smiledetection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE3AE00E536FB12C366F2FAB /* Pods_smiledetectionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34FC85EBC3EC021B4397693 /* Pods_smiledetectionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				1806D709216CD048009D10AE /* smiledetectionTests */,
 				1806D714216CD048009D10AE /* smiledetectionUITests */,
 				1806D6F3216CD046009D10AE /* Products */,
+				CD4FE30D5C92F92DA148E660 /* Pods */,
+				C377615717A3B8EB3F9D0771 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		1806D6F4216CD046009D10AE /* smiledetection */ = {
 			isa = PBXGroup;
 			children = (
+				1806D723216CD0A1009D10AE /* GoogleService-Info.plist */,
 				1806D6F5216CD046009D10AE /* AppDelegate.swift */,
 				1806D6F7216CD046009D10AE /* ViewController.swift */,
 				1806D6F9216CD046009D10AE /* Main.storyboard */,
@@ -125,6 +145,29 @@
 			path = smiledetectionUITests;
 			sourceTree = "<group>";
 		};
+		C377615717A3B8EB3F9D0771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5986AC43D68B3F868474CDA7 /* Pods_smiledetection.framework */,
+				08632BF4E24EC29445775604 /* Pods_smiledetectionTests.framework */,
+				CC385165C8657368CD6D7434 /* Pods_smiledetectionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4FE30D5C92F92DA148E660 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D8301C896F8A10B187485B /* Pods-smiledetection.debug.xcconfig */,
+				36CFF8E2B3C97F1EB92559FA /* Pods-smiledetection.release.xcconfig */,
+				10A31CCB3A32CD98F0BF2FCD /* Pods-smiledetectionTests.debug.xcconfig */,
+				092A3EC6711F42C5783935DF /* Pods-smiledetectionTests.release.xcconfig */,
+				2BA106CE7EF15837D167BDEF /* Pods-smiledetectionUITests.debug.xcconfig */,
+				5F277AE06D7D08829619DA53 /* Pods-smiledetectionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1806D71A216CD048009D10AE /* Build configuration list for PBXNativeTarget "smiledetection" */;
 			buildPhases = (
+				B3E4DCF026F50BCB2BD9FA97 /* [CP] Check Pods Manifest.lock */,
 				1806D6EE216CD046009D10AE /* Sources */,
 				1806D6EF216CD046009D10AE /* Frameworks */,
 				1806D6F0216CD046009D10AE /* Resources */,
+				D9A1698B28668A5416B8047E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1806D71D216CD048009D10AE /* Build configuration list for PBXNativeTarget "smiledetectionTests" */;
 			buildPhases = (
+				C3474836D0847BED500401C6 /* [CP] Check Pods Manifest.lock */,
 				1806D702216CD048009D10AE /* Sources */,
 				1806D703216CD048009D10AE /* Frameworks */,
 				1806D704216CD048009D10AE /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1806D720216CD048009D10AE /* Build configuration list for PBXNativeTarget "smiledetectionUITests" */;
 			buildPhases = (
+				BAA96AD98903EFAAC10DDE37 /* [CP] Check Pods Manifest.lock */,
 				1806D70D216CD048009D10AE /* Sources */,
 				1806D70E216CD048009D10AE /* Frameworks */,
 				1806D70F216CD048009D10AE /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1806D700216CD047009D10AE /* LaunchScreen.storyboard in Resources */,
+				1806D724216CD0A1009D10AE /* GoogleService-Info.plist in Resources */,
 				1806D6FD216CD047009D10AE /* Assets.xcassets in Resources */,
 				1806D6FB216CD046009D10AE /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3E4DCF026F50BCB2BD9FA97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smiledetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA96AD98903EFAAC10DDE37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smiledetectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3474836D0847BED500401C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smiledetectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A1698B28668A5416B8047E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-smiledetection/Pods-smiledetection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smiledetection/Pods-smiledetection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1806D6EE216CD046009D10AE /* Sources */ = {
@@ -428,6 +553,7 @@
 		};
 		1806D71B216CD048009D10AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D8301C896F8A10B187485B /* Pods-smiledetection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +571,7 @@
 		};
 		1806D71C216CD048009D10AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CFF8E2B3C97F1EB92559FA /* Pods-smiledetection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +589,7 @@
 		};
 		1806D71E216CD048009D10AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A31CCB3A32CD98F0BF2FCD /* Pods-smiledetectionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +610,7 @@
 		};
 		1806D71F216CD048009D10AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092A3EC6711F42C5783935DF /* Pods-smiledetectionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +631,7 @@
 		};
 		1806D721216CD048009D10AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA106CE7EF15837D167BDEF /* Pods-smiledetectionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +651,7 @@
 		};
 		1806D722216CD048009D10AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F277AE06D7D08829619DA53 /* Pods-smiledetectionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
